@@ -85,7 +85,7 @@
     <Compile Include="MefModuleManagerFixture.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MefModulesForTesting\Prism.MefExtensions.Tests.Support.csproj">
+    <ProjectReference Include="..\Prism.MefExtensions.Tests.Support\Prism.MefExtensions.Tests.Support.csproj">
       <Project>{f6443399-3e76-4b51-964a-95a166239d56}</Project>
       <Name>Prism.MefExtensions.Tests.Support</Name>
     </ProjectReference>
