@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.SharedInterfaces", "Prism.SharedInterfaces\Prism.SharedInterfaces.csproj", "{0FB574F7-7042-428F-AA56-196FD83120F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Composition", "Prism.Composition\Prism.Composition.csproj", "{77138947-1D13-4E22-AEE0-5D0DD046CA34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.UnityExtensions", "Prism.UnityExtensions\Prism.UnityExtensions.csproj", "{17831F3B-6B82-4916-BD2B-2CE2071EA622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.MefExtensions", "Prism.MefExtensions\Prism.MefExtensions.csproj", "{6ED61550-8E7A-42C6-9B30-380C6F97ED55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Interactivity", "Prism.Interactivity\Prism.Interactivity.csproj", "{DE856812-A32C-4866-801E-AF396D711942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{953192C7-3D62-45D2-B45F-F8EC04E8496C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FB574F7-7042-428F-AA56-196FD83120F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB574F7-7042-428F-AA56-196FD83120F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB574F7-7042-428F-AA56-196FD83120F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB574F7-7042-428F-AA56-196FD83120F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77138947-1D13-4E22-AEE0-5D0DD046CA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED61550-8E7A-42C6-9B30-380C6F97ED55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED61550-8E7A-42C6-9B30-380C6F97ED55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED61550-8E7A-42C6-9B30-380C6F97ED55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED61550-8E7A-42C6-9B30-380C6F97ED55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE856812-A32C-4866-801E-AF396D711942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE856812-A32C-4866-801E-AF396D711942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE856812-A32C-4866-801E-AF396D711942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE856812-A32C-4866-801E-AF396D711942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17831F3B-6B82-4916-BD2B-2CE2071EA622} = {953192C7-3D62-45D2-B45F-F8EC04E8496C}
+		{6ED61550-8E7A-42C6-9B30-380C6F97ED55} = {953192C7-3D62-45D2-B45F-F8EC04E8496C}
+	EndGlobalSection
+EndGlobal
