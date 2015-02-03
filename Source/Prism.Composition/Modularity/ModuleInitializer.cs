@@ -49,7 +49,8 @@ namespace Microsoft.Practices.Prism.Modularity
             try
             {
                 moduleInstance = this.CreateModule(moduleInfo);
-                moduleInstance.Initialize();
+                if (moduleInstance != null)
+                    moduleInstance.Initialize();
             }
             catch (Exception ex)
             {
